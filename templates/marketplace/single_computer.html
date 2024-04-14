@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ computer.title }}{% endblock %}
+
+{% block content %}
+<h1 class="mt-5" >{{ computer.title }}</h1>
+<h2>{{ computer.category }}</h2>
+<p>Video Card: {{ computer.video_card}}</p>
+<p>Price: {{ computer.price }}</p>
+<button class=" btn btn-primary">Buy</button>
+{% endblock %}
