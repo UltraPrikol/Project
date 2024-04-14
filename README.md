@@ -4,6 +4,6 @@
     ```
 Установите пожалуйста зависимости:
     ```
-    pip install django
-    pip install tastypie
+    pip install django==5.0.4
+    pip install django-tastypie==0.14.6
     ```
